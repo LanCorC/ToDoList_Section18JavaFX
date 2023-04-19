@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +76,18 @@
       <option name="presentableId" value="Default" />
       <updated>1681880453436</updated>
     </task>
+    <task id="LOCAL-00001" summary="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations">
+      <created>1681881478769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681881478769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations" />
   </component>
 </project>
