@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program">
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.257(JavaFX; Add Change Listener)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681883268895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section 18.257(JavaFX; Add Change Listener)">
+      <created>1682059172200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682059172200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations" />
     <MESSAGE value="Section 18.256(JavaFX; Base Interface)" />
     <MESSAGE value="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program" />
+    <MESSAGE value="Section 18.257(JavaFX; Add Change Listener)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.257(JavaFX; Add Change Listener)" />
   </component>
 </project>
