@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations">
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
     </list>
@@ -40,13 +39,13 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.todolist_section18javafx.HelloApplication" />
@@ -83,11 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681881478769</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program">
+      <created>1681883268895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681883268895</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 18.255(JavaFX; Setup Sample Todo List Application)&#10;&#10;Setting up the codebase for JavaFX demonstrations" />
+    <MESSAGE value="Section 18.256(JavaFX; Base Interface)" />
+    <MESSAGE value="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program" />
   </component>
 </project>
