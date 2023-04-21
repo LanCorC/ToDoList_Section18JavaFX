@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.257(JavaFX; Add Change Listener)">
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.258(JavaFX; Formatting Dates)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682059172200</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Section 18.258(JavaFX; Formatting Dates)">
+      <created>1682072460030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682072460030</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,6 +110,7 @@
     <MESSAGE value="Section 18.256(JavaFX; Base Interface)" />
     <MESSAGE value="Section 18.256(JavaFX; Base Interface)&#10;&#10;Setting up the base interface of the program" />
     <MESSAGE value="Section 18.257(JavaFX; Add Change Listener)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 18.257(JavaFX; Add Change Listener)" />
+    <MESSAGE value="Section 18.258(JavaFX; Formatting Dates)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.258(JavaFX; Formatting Dates)" />
   </component>
 </project>
