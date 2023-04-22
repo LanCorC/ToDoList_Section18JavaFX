@@ -27,13 +27,13 @@ public class TodoData {
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
 
-    public List<TodoItem> getTodoItemList() {
+    public List<TodoItem> getTodoItems() {
         return todoItems;
     }
 
-    public void setTodoItemList(List<TodoItem> todoItemList) {
-        this.todoItems = todoItemList;
-    }
+//    public void setTodoItemList(List<TodoItem> todoItemList) {
+//        this.todoItems = todoItemList;
+//    }
 
     public void loadTodoItems() throws IOException {
 
@@ -68,7 +68,7 @@ public class TodoData {
             Iterator<TodoItem> iter = todoItems.iterator();
             while (iter.hasNext()) {
                 TodoItem item = iter.next();
-                bw.write(String.format("%s\t%s\t$s", item.getShortDescription(),
+                bw.write(String.format("%s\t%s\t%s", item.getShortDescription(),
                         item.getDetails(), item.getDeadline().format(formatter)));
                 bw.newLine();
             }
