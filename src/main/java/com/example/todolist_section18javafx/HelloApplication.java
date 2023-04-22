@@ -28,8 +28,6 @@ public class HelloApplication extends Application {
         launch();
     }
 
-
-
     @Override
     public void stop() throws Exception {
         try {
