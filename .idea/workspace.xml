@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.260(JavaFX; Load and Save ToDo Items from/to Disk)&#10;&#10;Removing hard-coded entries, and fully deploying I/O file read/write">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/DialogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/todoItemDialogue.fxml" afterDir="false" />
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.261(JavaFX; Add DialogPane)&#10;&#10;Setting up the .fxml of dialogPane, its controller, and the button that launches the dialogPane off the application's menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datamodel/TodoData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/DialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/DialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/todoItemDialogue.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/todoItemDialogue.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682126412640</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Section 18.261(JavaFX; Add DialogPane)&#10;&#10;Setting up the .fxml of dialogPane, its controller, and the button that launches the dialogPane off the application's menu">
+      <created>1682137533971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682137533971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +143,7 @@
     <MESSAGE value="Section 18.258(JavaFX; Formatting Dates)" />
     <MESSAGE value="Section 18.259(JavaFX; Singletons)" />
     <MESSAGE value="Section 18.260(JavaFX; Load and Save ToDo Items from/to Disk)&#10;&#10;Removing hard-coded entries, and fully deploying I/O file read/write" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 18.260(JavaFX; Load and Save ToDo Items from/to Disk)&#10;&#10;Removing hard-coded entries, and fully deploying I/O file read/write" />
+    <MESSAGE value="Section 18.261(JavaFX; Add DialogPane)&#10;&#10;Setting up the .fxml of dialogPane, its controller, and the button that launches the dialogPane off the application's menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.261(JavaFX; Add DialogPane)&#10;&#10;Setting up the .fxml of dialogPane, its controller, and the button that launches the dialogPane off the application's menu" />
   </component>
 </project>

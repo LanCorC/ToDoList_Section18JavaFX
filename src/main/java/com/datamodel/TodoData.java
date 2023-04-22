@@ -31,9 +31,7 @@ public class TodoData {
         return todoItems;
     }
 
-//    public void setTodoItemList(List<TodoItem> todoItemList) {
-//        this.todoItems = todoItemList;
-//    }
+
 
     public void loadTodoItems() throws IOException {
 
@@ -78,4 +76,10 @@ public class TodoData {
             }
         }
     }
+
+    public void addTodoItem(TodoItem item) {
+        todoItems.add(item);
+
+    }
+
 }
