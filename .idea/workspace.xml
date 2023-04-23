@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.265(JavaFX; Cell Factories)&#10;&#10;setting a custom CellFactory to a list view&#10;touching on CallBack&lt;,&gt;(){}, ListCell&lt;&gt;(){}, and exploring overriding listCell.updateItem() to customize visuals of listView cells">
+    <list default="true" id="75a53dec-7175-45f8-80a4-e403d658ef06" name="Changes" comment="Section 18.267(JavaFX; KeyEvents and Toolbars) &#10;&#10;adding onKeyPressed functionality to list (delete), touched on how to process keyEvent object for keyPressed code, demonstrated how to add a toolbar with image buttons, and how some properties must be defined in its tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/todolist_section18javafx/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/todolist_section18javafx/mainwindow.fxml" afterDir="false" />
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682161977512</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Section 18.267(JavaFX; KeyEvents and Toolbars) &#10;&#10;adding onKeyPressed functionality to list (delete), touched on how to process keyEvent object for keyPressed code, demonstrated how to add a toolbar with image buttons, and how some properties must be defined in its tags">
+      <created>1682219057557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682219057557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +183,7 @@
     <MESSAGE value="Section 18.263(JavaFX; Bug Fix and Update List View)&#10;&#10;updating listview and listSelection in realtime, manipulating window title and header with commands" />
     <MESSAGE value="Section 18.264(JavaFX; Data Binding and Observable)&#10;&#10;using ObservableList() to bind data to a control (ListView)" />
     <MESSAGE value="Section 18.265(JavaFX; Cell Factories)&#10;&#10;setting a custom CellFactory to a list view&#10;touching on CallBack&lt;,&gt;(){}, ListCell&lt;&gt;(){}, and exploring overriding listCell.updateItem() to customize visuals of listView cells" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 18.265(JavaFX; Cell Factories)&#10;&#10;setting a custom CellFactory to a list view&#10;touching on CallBack&lt;,&gt;(){}, ListCell&lt;&gt;(){}, and exploring overriding listCell.updateItem() to customize visuals of listView cells" />
+    <MESSAGE value="Section 18.267(JavaFX; KeyEvents and Toolbars) &#10;&#10;adding onKeyPressed functionality to list (delete), touched on how to process keyEvent object for keyPressed code, demonstrated how to add a toolbar with image buttons, and how some properties must be defined in its tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 18.267(JavaFX; KeyEvents and Toolbars) &#10;&#10;adding onKeyPressed functionality to list (delete), touched on how to process keyEvent object for keyPressed code, demonstrated how to add a toolbar with image buttons, and how some properties must be defined in its tags" />
   </component>
 </project>

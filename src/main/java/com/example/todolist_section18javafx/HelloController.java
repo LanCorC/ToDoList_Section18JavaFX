@@ -4,6 +4,7 @@ import com.datamodel.TodoData;
 import com.datamodel.TodoItem;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -22,6 +23,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -38,6 +40,8 @@ public class HelloController {
     private BorderPane mainBorderPane;
     @FXML
     private ContextMenu listContextMenu;
+    @FXML
+    private ToggleButton filterToggleButton;
 
     public void initialize() {
         listContextMenu = new ContextMenu();
@@ -62,7 +66,15 @@ public class HelloController {
             }
         });
 
-        todoListView.setItems(TodoData.getInstance().getTodoItems());
+        SortedList<TodoItem> sortedList = new SortedList<TodoItem>(TodoData.getInstance().getTodoItems(), new Comparator<TodoItem>(){
+             @Override
+            public int compare(TodoItem o1, TodoItem o2) {
+                 return o1.getDeadline().compareTo(o2.getDeadline());
+             }
+        });
+
+//        todoListView.setItems(TodoData.getInstance().getTodoItems());
+        todoListView.setItems(sortedList);
         todoListView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
         todoListView.getSelectionModel().selectFirst();
 
@@ -146,6 +158,15 @@ public class HelloController {
         TodoItem selectedItem = todoListView.getSelectionModel().getSelectedItem();
         if(selectedItem != null && keyEvent.getCode().equals(KeyCode.DELETE)) {
             deleteItem(selectedItem);
+        }
+    }
+
+    @FXML
+    public void handleFilterButton() {
+        if(filterToggleButton.isSelected()) {
+
+        } else {
+
         }
     }
 }

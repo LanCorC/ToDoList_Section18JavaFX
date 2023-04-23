@@ -19,6 +19,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.control.ToggleButton?>
 <BorderPane fx:id="mainBorderPane" xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.todolist_section18javafx.HelloController">
     <top>
@@ -52,6 +53,15 @@
                             </ImageView>
                         </graphic>
                     </Button>
+                    <ToggleButton text="Today's Items" fx:id="filterToggleButton"
+                                  onAction="#handleFilterButton">
+                        <tooltip>
+                            <Tooltip text
+                            ="Button Down: Show Today's items only. Button Up: Show all items"/>
+                        </tooltip>
+
+                    </ToggleButton>
+
                 </HBox>
             </ToolBar>
         </VBox>
